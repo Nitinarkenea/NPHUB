@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="11" passed="11" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Student Logged in Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Student Found Rotation]]>
+    </line>
+    <line>
+      <![CDATA[No of Hours Noted]]>
+    </line>
+    <line>
+      <![CDATA[Paper Work Due date noted]]>
+    </line>
+    <line>
+      <![CDATA[Rotation start date noted]]>
+    </line>
+    <line>
+      <![CDATA[Rotation End date noted]]>
+    </line>
+    <line>
+      <![CDATA[Please make payment to sent request to Preceptor]]>
+    </line>
+    <line>
+      <![CDATA[Payment Done]]>
+    </line>
+    <line>
+      <![CDATA[Request sent to Preceptor successfully]]>
+    </line>
+    <line>
+      <![CDATA[Your Rotation Request ID is: #BRIGER6-4020
+
+You’ve successfully requested your Geriatrics, clinical rotation in British Islands D.C., Virgin Islands.]]>
+    </line>
+    <line>
+      <![CDATA[Resume Uploaded Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Preceptor Login Succesfully]]>
+    </line>
+    <line>
+      <![CDATA[Student requested Accepted By Preceptor]]>
+    </line>
+    <line>
+      <![CDATA[First Form Accepted and Signed]]>
+    </line>
+    <line>
+      <![CDATA[Second Form Accepted and Signed]]>
+    </line>
+    <line>
+      <![CDATA[Student need to pay remining fee in One time OR Installation]]>
+    </line>
+    <line>
+      <![CDATA[Please accept Terms And Conditions]]>
+    </line>
+    <line>
+      <![CDATA[Terms And Conditions Accepted]]>
+    </line>
+    <line>
+      <![CDATA[Thank You, You have paid Remaining Fee ]]>
+    </line>
+    <line>
+      <![CDATA[All Documents have been Downloded]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-09-13T14:10:24 IST" name="Suite" finished-at="2022-09-13T14:15:45 IST" duration-ms="321079">
+    <groups>
+    </groups>
+    <test started-at="2022-09-13T14:10:24 IST" name="Test" finished-at="2022-09-13T14:15:45 IST" duration-ms="321079">
+      <class name="testjava.LoginTest">
+        <test-method is-config="true" signature="initializingWeb()[pri:0, instance:testjava.LoginTest@19e7a160]" started-at="2022-09-13T14:09:32 IST" name="initializingWeb" finished-at="2022-09-13T14:10:24 IST" duration-ms="51694" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializingWeb -->
+        <test-method is-config="true" signature="allPageObject()[pri:0, instance:testjava.LoginTest@19e7a160]" started-at="2022-09-13T14:10:24 IST" name="allPageObject" finished-at="2022-09-13T14:10:24 IST" duration-ms="39" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- allPageObject -->
+        <test-method signature="verifyLoginFunctionality()[pri:0, instance:testjava.LoginTest@19e7a160]" started-at="2022-09-13T14:10:24 IST" name="verifyLoginFunctionality" finished-at="2022-09-13T14:10:28 IST" duration-ms="3600" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Student Logged in Successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyLoginFunctionality -->
+        <test-method is-config="true" signature="allPageObject()[pri:0, instance:testjava.LoginTest@19e7a160]" started-at="2022-09-13T14:10:28 IST" name="allPageObject" finished-at="2022-09-13T14:10:28 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- allPageObject -->
+        <test-method signature="verifyDashBoardRoationFinding()[pri:1, instance:testjava.LoginTest@19e7a160]" started-at="2022-09-13T14:10:28 IST" name="verifyDashBoardRoationFinding" finished-at="2022-09-13T14:10:55 IST" duration-ms="27105" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Student Found Rotation]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyDashBoardRoationFinding -->
+        <test-method is-config="true" signature="allPageObject()[pri:0, instance:testjava.LoginTest@19e7a160]" started-at="2022-09-13T14:10:55 IST" name="allPageObject" finished-at="2022-09-13T14:10:55 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- allPageObject -->
+        <test-method signature="verifyForBookingAssistance()[pri:2, instance:testjava.LoginTest@19e7a160]" started-at="2022-09-13T14:10:55 IST" name="verifyForBookingAssistance" finished-at="2022-09-13T14:11:27 IST" duration-ms="31847" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[No of Hours Noted]]>
+            </line>
+            <line>
+              <![CDATA[Paper Work Due date noted]]>
+            </line>
+            <line>
+              <![CDATA[Rotation start date noted]]>
+            </line>
+            <line>
+              <![CDATA[Rotation End date noted]]>
+            </line>
+            <line>
+              <![CDATA[Please make payment to sent request to Preceptor]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyForBookingAssistance -->
+        <test-method is-config="true" signature="allPageObject()[pri:0, instance:testjava.LoginTest@19e7a160]" started-at="2022-09-13T14:11:27 IST" name="allPageObject" finished-at="2022-09-13T14:11:27 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- allPageObject -->
+        <test-method signature="verifyUserMakePayment()[pri:3, instance:testjava.LoginTest@19e7a160]" started-at="2022-09-13T14:11:27 IST" name="verifyUserMakePayment" finished-at="2022-09-13T14:11:51 IST" duration-ms="24042" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Payment Done]]>
+            </line>
+            <line>
+              <![CDATA[Request sent to Preceptor successfully]]>
+            </line>
+            <line>
+              <![CDATA[Your Rotation Request ID is: #BRIGER6-4020
+
+You’ve successfully requested your Geriatrics, clinical rotation in British Islands D.C., Virgin Islands.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyUserMakePayment -->
+        <test-method is-config="true" signature="allPageObject()[pri:0, instance:testjava.LoginTest@19e7a160]" started-at="2022-09-13T14:11:51 IST" name="allPageObject" finished-at="2022-09-13T14:11:51 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- allPageObject -->
+        <test-method signature="verifyUserUploadResume()[pri:4, instance:testjava.LoginTest@19e7a160]" started-at="2022-09-13T14:11:51 IST" name="verifyUserUploadResume" finished-at="2022-09-13T14:12:06 IST" duration-ms="14849" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Resume Uploaded Successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyUserUploadResume -->
+        <test-method is-config="true" signature="allPageObject()[pri:0, instance:testjava.LoginTest@19e7a160]" started-at="2022-09-13T14:12:06 IST" name="allPageObject" finished-at="2022-09-13T14:12:06 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- allPageObject -->
+        <test-method signature="verifyPreceptorLogin()[pri:5, instance:testjava.LoginTest@19e7a160]" started-at="2022-09-13T14:12:06 IST" name="verifyPreceptorLogin" finished-at="2022-09-13T14:12:30 IST" duration-ms="24513" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Preceptor Login Succesfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyPreceptorLogin -->
+        <test-method is-config="true" signature="allPageObject()[pri:0, instance:testjava.LoginTest@19e7a160]" started-at="2022-09-13T14:12:30 IST" name="allPageObject" finished-at="2022-09-13T14:12:30 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- allPageObject -->
+        <test-method signature="verifyAcceptabceofStudent()[pri:6, instance:testjava.LoginTest@19e7a160]" started-at="2022-09-13T14:12:30 IST" name="verifyAcceptabceofStudent" finished-at="2022-09-13T14:12:35 IST" duration-ms="5178" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Student requested Accepted By Preceptor]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyAcceptabceofStudent -->
+        <test-method is-config="true" signature="allPageObject()[pri:0, instance:testjava.LoginTest@19e7a160]" started-at="2022-09-13T14:12:35 IST" name="allPageObject" finished-at="2022-09-13T14:12:35 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- allPageObject -->
+        <test-method signature="verifyPreceptorPaperworkCompletion()[pri:7, instance:testjava.LoginTest@19e7a160]" started-at="2022-09-13T14:12:35 IST" name="verifyPreceptorPaperworkCompletion" finished-at="2022-09-13T14:13:49 IST" duration-ms="74041" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[First Form Accepted and Signed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyPreceptorPaperworkCompletion -->
+        <test-method is-config="true" signature="allPageObject()[pri:0, instance:testjava.LoginTest@19e7a160]" started-at="2022-09-13T14:13:49 IST" name="allPageObject" finished-at="2022-09-13T14:13:49 IST" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- allPageObject -->
+        <test-method signature="verifySchoolAffiliationAgreementCompletion()[pri:8, instance:testjava.LoginTest@19e7a160]" started-at="2022-09-13T14:13:49 IST" name="verifySchoolAffiliationAgreementCompletion" finished-at="2022-09-13T14:14:13 IST" duration-ms="23473" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Second Form Accepted and Signed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifySchoolAffiliationAgreementCompletion -->
+        <test-method is-config="true" signature="allPageObject()[pri:0, instance:testjava.LoginTest@19e7a160]" started-at="2022-09-13T14:14:13 IST" name="allPageObject" finished-at="2022-09-13T14:14:13 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- allPageObject -->
+        <test-method signature="verifyStudentPayAndAcceptRotation()[pri:8, instance:testjava.LoginTest@19e7a160]" started-at="2022-09-13T14:14:13 IST" name="verifyStudentPayAndAcceptRotation" finished-at="2022-09-13T14:14:44 IST" duration-ms="31164" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Student need to pay remining fee in One time OR Installation]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyStudentPayAndAcceptRotation -->
+        <test-method is-config="true" signature="allPageObject()[pri:0, instance:testjava.LoginTest@19e7a160]" started-at="2022-09-13T14:14:44 IST" name="allPageObject" finished-at="2022-09-13T14:14:44 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- allPageObject -->
+        <test-method signature="verifyStudentpaidRemainingFees()[pri:9, instance:testjava.LoginTest@19e7a160]" started-at="2022-09-13T14:14:44 IST" name="verifyStudentpaidRemainingFees" finished-at="2022-09-13T14:15:45 IST" duration-ms="61079" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Please accept Terms And Conditions]]>
+            </line>
+            <line>
+              <![CDATA[Terms And Conditions Accepted]]>
+            </line>
+            <line>
+              <![CDATA[Thank You, You have paid Remaining Fee ]]>
+            </line>
+            <line>
+              <![CDATA[All Documents have been Downloded]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyStudentpaidRemainingFees -->
+        <test-method is-config="true" signature="tearDowmBrowser()[pri:0, instance:testjava.LoginTest@19e7a160]" started-at="2022-09-13T14:15:47 IST" name="tearDowmBrowser" finished-at="2022-09-13T14:15:48 IST" duration-ms="1095" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDowmBrowser -->
+      </class> <!-- testjava.LoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
